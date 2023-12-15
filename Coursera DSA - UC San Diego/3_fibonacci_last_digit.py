@@ -26,13 +26,26 @@ Sample 2.
 #     last_digit = int(str(fibo_array[n])[-1])
 #     return last_digit
 
+# Not so Good Solution - Runs out of memory for very high n
+# def fibonacci_last_digit(n):
+#     fibo_array = [0, 1]
+#     for i in range(2, n + 1):
+#         a = fibo_array[i - 1] + fibo_array[i - 2]
+#         fibo_array.append(a)
+#     last_digit = fibo_array[n] % 10
+#     return last_digit
+
+# Good Solution - Uses the fact that the last digit in fibonacci series gets repeated every 60 numbers
 def fibonacci_last_digit(n):
     fibo_array = [0, 1]
-    for i in range(2, n + 1):
+    for i in range(2, 61):
         a = fibo_array[i - 1] + fibo_array[i - 2]
         fibo_array.append(a)
-    last_digit = fibo_array[n] % 10
-    return last_digit
+        if i>n:
+            break
+    last_digits = [i % 10 for i in fibo_array]
+    return last_digits[n % 60]
+
 
 
 n = int(input())
