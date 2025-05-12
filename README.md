@@ -25,6 +25,6 @@ Got a slick solution? PRs welcome!
 
 
 ## Holler at Me 
-LinkedIn: https://www.linkedin.com/in/kartik-kumar-2b44671a9/
+LinkedIn: https://www.linkedin.com/in/kartik-thory
 
-Email: thorykartik111@gmail.com
+Email: kartik.kumar.career@gmail.com
