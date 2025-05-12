@@ -3,7 +3,8 @@
  **Quick Dive into Data Structures & Algorithms!**
 
 ## What's Inside
-- **Problems from UC San Diego's DSA course at Coursera** 
+- **Select problems from Goodrich and Tamasia**
+- **Some from UC San Diego's DSA course at Coursera** 
 - **Problems from Cracking the Coding Interview by** 
 - **LeetCode Challenges** 
 - **More Cool Stuff** 
